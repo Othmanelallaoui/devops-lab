@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-        return f"Version ahlam elfadli and Othman EL ALLAOUI test Heure: {datetime.now()}"
+        return f"Othman EL ALLAOUI Ahlam ELFADLI"
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
 
@@ -17,3 +17,4 @@ if __name__ == "__main__":
 
 
    # return f"Version 6 - Heure: {datetime.now()}"
+#return f"Version ahlam elfadli and Othman EL ALLAOUI test Heure: {datetime.now()}"
