@@ -1,0 +1,1 @@
+echo "Test OK - application valide"
